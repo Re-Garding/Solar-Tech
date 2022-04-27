@@ -1,18 +1,22 @@
 import * as React from 'react';
 import { View, useWindowDimensions, Text} from 'react-native';
 import { TabView, TabBar, SceneMap } from 'react-native-tab-view';
+
+
+import Count from './components/count.js';
  
 
 
 const CountRoute = () => (
 	<View style={{ flex: 1, backgroundColor: 'white'}}>
-  	<Text>Counters</Text>
+  	<Count></Count>
 	</View>
 );
 
 const GraphRoute = () => (
 	<View style={{ flex: 1, backgroundColor: 'lightgrey'}} >
   	<Text>Graphs</Text>
+    
 	</View>
 );
  
