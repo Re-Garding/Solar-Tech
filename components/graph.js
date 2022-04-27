@@ -69,7 +69,7 @@ const getData = () => {
 
     return (
         <>
-          <Text style={styles.header}></Text>
+          <Text style={styles.header}>Covid Statistics: Cases per population percentage</Text>
           <LineChart
             data={{
               labels: getData(),
