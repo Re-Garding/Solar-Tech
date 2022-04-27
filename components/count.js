@@ -1,5 +1,5 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Switch, Text, View, Image, TouchableOpacity, Button} from 'react-native';
+import { StyleSheet, Switch, Text, View, Image, Button} from 'react-native';
 import React from 'react';
 import Clock from "./clock.js";
 

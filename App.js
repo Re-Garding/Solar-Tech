@@ -4,6 +4,7 @@ import { TabView, TabBar, SceneMap } from 'react-native-tab-view';
 
 
 import Count from './components/count.js';
+import Graph from './components/graph.js'
  
 
 
@@ -15,7 +16,7 @@ const CountRoute = () => (
 
 const GraphRoute = () => (
 	<View style={{ flex: 1, backgroundColor: 'lightgrey'}} >
-  	<Text>Graphs</Text>
+  	<Graph></Graph>
     
 	</View>
 );
